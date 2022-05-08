@@ -1,7 +1,7 @@
 from elasticsearch import Elasticsearch
 from fastText.python.fasttext_module import fasttext
 
-ELASTIC_PASSWORD = "vbEP_fOLmUvGy==16gvZ"
+ELASTIC_PASSWORD = "elasticsearch password:)"
 es = Elasticsearch('https://localhost:9200', verify_certs=False, basic_auth=("elastic", ELASTIC_PASSWORD))
 
 for i in range(5440):
